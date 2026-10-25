@@ -1,0 +1,18 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<section class="booking-panel">
+    <input type="text" id="item-input" placeholder="Type room, book, or food order item...">
+    <button id="submit-btn">Confirm Transaction</button>
+</section>
+
+<section class="display-panel">
+    <h2>Current Booking Log</h2>
+    <ul id="booking-list">
+        <!-- Loop through the array passed from app.py dynamically -->
+        {% for booking in bookings %}
+            <li class="booking-card">🔖 Reserved: {{ booking }}</li>
+        {% endfor %}
+    </ul>
+</section>
+{% endblock %}
