@@ -7,21 +7,7 @@ A template repository for the design and development of progressive web apps
 
 Your file directory will look like this inside Visual Studio Code:
 ```text
-📁 pwa_student_template/
-│
-├── 📁 css/
-│   └── 📄 style.css        # Mobile-first CSS foundation using standard system variables
-│
-├── 📁 js/
-│   └── 📄 main.js         # Entry script containing full automated Service Worker registration
-│
-├── 📁 icons/
-│   └── 📄 readme_icons.txt # Placeholder (Students drop their 192px and 512px icon PNGs here)
-│
-├── 📄 index.html          # Core document shell linking the script, styles, and manifest
-├── 📄 offline.html        # Custom structural standalone screen served automatically when disconnected
-├── 📄 manifest.json       # Configured app installation criteria ready for custom names
-└── 📄 sw.js               # Network-first lifecycle proxy manager with asset caching built-in
+
 ```
 
 # 🚀 Instructions
