@@ -32,7 +32,12 @@ This creates a clean, independent copy of the folder layout inside their persona
 
 ## 💡 Added Classroom Features Built into This Template
 
-• Automated Offline Failover: The sw.js is fully programmed out of the box to serve the offline.html view if network calls fail. Students do not need to modify the service worker logic itself; they only need to focus on updating index.html and js/main.js.
-• Live Connection Monitor: A tracking element <p id="network-status"> is included at the top of the interface. It utilizes standard DOM events to display 🟢 Online or 🔴 Offline Mode Active dynamically as students toggle their dev tools connection state, providing immediate feedback for their NESA testing documentation.
-Now that the project code workspace template is established, would you like me to construct a matching NESA-aligned Student Requirements Document or a Project Test Case Table Template they can fill out during Week 5?
+• Automated Offline Failover: The sw.js is fully programmed out of the box to serve the offline.html view if network calls fail. 
+
+You do not need to modify the service worker logic itself; you only need to focus on updating index.html and js/main.js.
+
+• Live Connection Monitor: A tracking element <p id="network-status"> is included at the top of the interface. 
+
+It utilizes standard DOM events to display 🟢 Online or 🔴 Offline Mode Active dynamically as students toggle their dev tools connection state, providing immediate feedback for their NESA testing documentation.
+
 
